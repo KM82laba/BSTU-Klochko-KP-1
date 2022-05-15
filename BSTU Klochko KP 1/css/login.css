@@ -1,0 +1,529 @@
+.div4 {
+  position: relative;
+
+  width: 95%;
+  left: 5%;
+
+  font-family: "Quicksand Light";
+  font-style: normal;
+  
+}
+
+.g3US {
+  position: relative;
+  width: 35%;
+}
+.div0-1{
+    position: relative;
+    left: 5%;
+    width: 95%; 
+    
+  }
+@media screen and (max-width: 1380px) {
+    .div0span4{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1210px) {
+    .one{
+      display: none;
+    }
+    .div1img1,.div1img2,.div1img3 {
+      position: relative;
+      width: 40px;
+      top: 10px;
+    }
+    .div1img0{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1211px) {
+    .two{
+      display: none;
+    }
+    .div1img1 {
+      position: relative;
+      width: 45px;
+      height: 44px;
+      left: 85%;
+      top: 10px;
+    }
+    .div1img2 {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      left: 83.5%;
+      top: 10px;
+    }
+    .div1img3 {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      left: 82%;
+      top: 10px;
+    }
+    a{
+      font-size: 19px;
+    }
+    
+     .div0img3{
+      margin-left: 90%;
+    }
+  }
+@media screen and (max-width: 1211px) {
+    
+   a{
+     font-size: 10px;
+   }
+   .div0img3{
+     margin-left: 80%;
+   }
+  }
+  
+
+.two{
+    position: relative;
+    
+    
+    
+}
+.topmenu1 > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  .topmenu1 > li:last-child {
+    margin-right: 0;
+  }
+  
+  .submenu1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+
+ 
+
+  .two ul {
+    background: #85ff8a;
+  }
+  
+  .two .submenu1 {
+    visibility: hidden;
+    background: #ffffff;
+  }
+  .two ul li:hover .submenu1 {
+    visibility: visible;
+  }
+@font-face {
+    
+    font-family: "Quicksand Light"; 
+    src: url("../font-face/Quicksand Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+.line4 {
+  position: relative;
+  width: 95%;
+  height: 1px;
+  
+  z-index: 50;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+body{
+  margin: 0;
+}
+.div1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background: #85ff8a;
+  }
+.one{
+    
+    position: absolute;
+    width: 65%;
+    height: 80px;
+    
+    }
+    ul {
+        
+        list-style: none; 
+        margin: 0;
+        padding: 0;
+        float: right;
+        
+      }
+      .topmenu > li {
+        display: inline-block;
+        
+        
+      }
+      .topmenu > li:last-child {
+        margin-right: 0;
+      }
+        a {
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 500%;
+    transition: 0.5s linear;
+    color: black;
+  }
+      
+      .submenu {
+        position: absolute;
+        height: 316px;
+        width: 1903px;
+    left: 0;
+        z-index: 500;
+        
+      }
+      
+      
+      .one .submenu {
+       
+        display: none;
+        background: white;
+      }
+      .one ul li:hover .submenu {
+        
+        display: block;
+      }
+      
+      .subf:hover{
+          
+        background-color: white;
+        
+      }
+      
+      .div0img1{
+        position: absolute;
+        width: 26px;
+        height: 32px;
+        left: 1467px;
+        top: 13px;
+        
+      }
+      .div0img2{
+        position: absolute;
+        width: 40px;
+        height: 44px;
+        left: 1588px;
+        top: 9px;
+    }
+    .div0img3 {
+    position: absolute;
+    width: 40px;
+    
+margin-top: 10px;
+  }
+  .div0img3:hover {
+    transform: scale(1.2);
+  }
+    .div0span1{
+        position: absolute;
+        width: 72px;
+        height: 17px;
+        left: 1499px;
+        top: 21px;
+        
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .div0span2{
+        position: absolute;
+    width: 115px;
+    height: 33px;
+    left: 1607px;
+    top: 21px;
+    
+    font-family: 'Quicksand Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    
+    }
+    .div0span3{
+        position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 1738px;
+    top: 21px;
+    
+    font-family: 'Quicksand Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    }
+    
+
+
+.div1img0 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 15px;
+    z-index: 10;
+  }
+.div0span4 {
+    position: absolute;
+    width: 108px;
+    height: 28px;
+    left: 14%;
+    top: 35px;
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+    
+    .div1img4{
+        position: absolute;
+        width: 351.12px;
+        height: 300px;
+        left: 150px;
+        
+    }
+    .div1img5{
+        position: absolute;
+        width: 229.03px;
+        height: 300px;
+        left: 631px;
+        
+        
+    }
+    .div1img6{
+        position: absolute;
+        width: 295.2px;
+        height: 300px;
+        left: 990px;
+        
+    }
+    .div1img7{
+        position: absolute;
+        width: 312.96px;
+        height: 300px;
+        left: 1409px;
+        
+        
+    }
+    .vector2{
+        position: absolute;
+        top: 100px;
+        height: 100px;
+        width: 50px;
+        left: 1800px;
+    }
+    .div1span1{
+        position: absolute;
+    width: 419px;
+    height: 168px;
+    left: 120px;
+    top: 70px;
+    font-family: 'Quicksand Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    }
+    .div1img8{
+        position: absolute;
+    width: 669px;
+    height: 316px;
+    left: 625px;
+    
+    }
+    .div1img9{
+        position: absolute;
+        width: 300px;
+        height: 316px;
+        left: 150px;
+        
+    }
+    .div1img10{
+        position: absolute;
+        width: 300px;
+        height: 316px;
+        left: 527px;
+        
+    }
+    .div1img11{
+        position: absolute;
+        width: 250px;
+        height: 316px;
+        left: 971px;
+        
+    }
+    .div1img12{
+        position: absolute;
+        width: 300px;
+        height: 316px;
+        left: 1426px;
+        
+    }
+    .div1span2{
+        position: absolute;
+        width: 339px;
+        height: 56px;
+        left: 134px;
+        top: 20px;
+        
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        
+    }
+    
+    .div1-1{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        left: 134px;
+        top: 80px;
+        text-align: center;
+        background: #85FF8A;
+        border-radius: 50px;
+        font-family: 'Quicksand Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    }
+    .div1img13{
+        position: absolute;
+        width: 300px;
+        height: 290px;
+        left: 470px;
+    }
+    .div1img14{
+        position: absolute;
+        width: 310px;
+        height: 290px;
+        left: 770px;
+    }
+    .div1img15{
+        position: absolute;
+        width: 310px;
+        height: 290px;
+        left: 1070px;
+    }
+    .div1img16{
+        position: absolute;
+        width: 310px;
+        height: 290px;
+        left: 1383px;
+    }
+    
+  .div5 {
+    position: relative;
+    width: 100%;
+    background: #85ff8a;
+  }
+  .div5span1 {
+    position: relative;
+  
+    
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .div5img {
+    position: relative;
+    width: 3%;
+    z-index: 10;
+  }
+.div3{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+    .div2span1{
+        position: relative;    
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .div2span2{
+      margin-left: 30%;
+      position: relative;
+      display: inline-block;
+      font-family: 'Quicksand Light';
+      font-style: normal;
+      font-size: 19px;
+    }
+    .div2span4{
+        position: relative;  
+        margin-left: 3%;
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .input1text1, .input1pass1{
+        margin-bottom: 1%;
+        margin-left: 30%;
+        position: relative;
+        width: 30%;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;    
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+    }
+    .input1button1{
+        position: relative;
+        margin-top: 1%;
+        margin-left: 3%;
+        background: #85FF8A;
+        border: 0px solid #000000;
+        box-sizing: border-box;
+        font-family: 'Quicksand Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.69);
+    }
+    .input1button1:hover{
+        background-color: white;
+        border: 1px solid #000000;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }

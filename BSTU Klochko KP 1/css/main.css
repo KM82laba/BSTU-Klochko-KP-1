@@ -1,0 +1,668 @@
+body{
+  margin: 0;
+}
+.div1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background: #85ff8a;
+}
+  @font-face {
+    font-family: "Quicksand Light";
+    src: url("../font-face/Quicksand Light.ttf") format("truetype");
+    font-style: normal;
+
+  }
+  
+  .line2 {
+    position: relative;
+    width: 95%;
+    height: 1px;
+    left: 5%;
+    z-index: 50;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .line3 {
+    position: relative;
+    width: 95%;
+    height: 1px;
+    left: 5%;
+    
+  }
+  .line4 {
+    position: relative;
+    width: 95%;
+    height: 1px;
+    left: 5%;
+    z-index: 50;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .g3US {
+    position: relative;
+    width: 35%;
+  }
+  .back {
+    position: relative;
+    width: 100%;
+
+    top: 10.5%;
+  }
+  .one {
+    position: absolute;
+    width: 65%;
+    height: 80px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  @media screen and (max-width: 1380px) {
+    .div0span4{
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width: 1210px) {
+    .one{
+      display: none;
+    }
+    .div1img1,.div1img2,.div1img3 {
+      position: relative;
+      width: 40px;
+      top: 10px;
+    }
+    .div1img0{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1211px) {
+    .two{
+      display: none;
+    }
+    .div1img1 {
+      position: relative;
+      width: 45px;
+      height: 44px;
+      left: 85%;
+      top: 10px;
+    }
+    .div1img2 {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      left: 83.5%;
+      top: 10px;
+    }
+    .div1img3 {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      left: 82%;
+      top: 10px;
+    }
+    a{
+      font-size: 19px;
+    }
+    .div4span1{
+      margin-left: 50%;
+      font-size: 35px;
+     }
+     .div2span1{
+      font-size: 35px;
+     }
+     .div3span1{
+      font-size: 35px;
+      margin-left: 40%;
+     }
+     .div2span3,.div4span3{
+      font-size: 27px;
+     }
+     .div0img3{
+      margin-left: 90%;
+    }
+    .div4iconimg1 {
+      width: 4%;
+      margin-bottom: 15%;
+    }
+  }
+@media screen and (max-width: 1211px) {
+    .div2img3 , .div2span5 , .div2img2 , .div2span4, .div4span4 , .div4span5 , .div4img6 ,.div4img7 ,.div4iconimg2 ,.div4iconimg3{
+      display: none;
+    }
+    .div5span1{
+      font-size: 70%;
+    }
+   .div2,.div4,.div3{
+     text-align: center;
+     align-items: center;
+   }
+   .div4span1,.div2span1{
+    font-size: 15px;
+    margin-left: 0;
+   }
+   .div3span1{
+    font-size: 15px;
+    margin-left: 0;
+   }
+   .div2span3,.div4span3{
+    font-size: 10px;
+   }
+   a{
+     font-size: 10px;
+   }
+   .div0img3{
+     margin-left: 80%;
+   }
+   .div2img1, .div4img5
+   {
+    width: 30%;
+   }
+   .div4iconimg1 {
+    width: 6%;
+    margin-bottom: 25%;
+  }
+  }
+  
+
+.two{
+    position: relative;
+    
+    
+    
+}
+.topmenu1 > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  .topmenu1 > li:last-child {
+    margin-right: 0;
+  }
+  
+  .submenu1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+
+ 
+
+  .two ul {
+    background: #85ff8a;
+  }
+  
+  .two .submenu1 {
+    visibility: hidden;
+    background: #ffffff;
+  }
+  .two ul li:hover .submenu1 {
+    visibility: visible;
+  }
+
+  .topmenu > li {
+    display: inline-block;
+  }
+  .topmenu > li:last-child {
+    margin-right: 0;
+  }
+  a {
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 500%;
+    transition: 0.5s linear;
+    color: black;
+  }
+  
+  .submenu {
+    position: absolute;
+    height: 316px;
+    width: 1903px;
+    left: 0;
+    z-index: 500;
+  }
+  
+  .one .submenu {
+    display: none;
+    background: white;
+  }
+  .one ul li:hover .submenu {
+    display: block;
+  }
+  
+  .subf:hover {
+    background-color: white;
+  }
+  
+  .div0img3 {
+    position: absolute;
+    width: 40px;
+    
+margin-top: 10px;
+  }
+  .div0img3:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  .div1img0 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 15px;
+    z-index: 10;
+  }
+  .div0span4 {
+    position: absolute;
+    width: 108px;
+    height: 28px;
+    left: 14%;
+    top: 35px;
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  
+  .div1img4 {
+    position: absolute;
+    width: 351.12px;
+    height: 300px;
+    left: 150px;
+  }
+  .div1img5 {
+    position: absolute;
+    width: 229.03px;
+    height: 300px;
+    left: 631px;
+  }
+  .div1img6 {
+    position: absolute;
+    width: 295.2px;
+    height: 300px;
+    left: 990px;
+  }
+  .div1img7 {
+    position: absolute;
+    width: 312.96px;
+    height: 300px;
+    left: 1409px;
+  }
+  .vector2 {
+    position: absolute;
+    top: 100px;
+    height: 100px;
+    width: 50px;
+    left: 100%;
+  }
+  .div1span1 {
+    position: absolute;
+    width: 419px;
+    height: 168px;
+    left: 120px;
+    top: 70px;
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .div1img8 {
+    position: absolute;
+    width: 669px;
+    height: 316px;
+    left: 625px;
+  }
+  .div1img9 {
+    position: absolute;
+    width: 300px;
+    height: 316px;
+    left: 150px;
+  }
+  .div1img10 {
+    position: absolute;
+    width: 300px;
+    height: 316px;
+    left: 527px;
+  }
+  .div1img11 {
+    position: absolute;
+    width: 250px;
+    height: 316px;
+    left: 971px;
+  }
+  .div1img12 {
+    position: absolute;
+    width: 300px;
+    height: 316px;
+    left: 1426px;
+  }
+  .div1span2 {
+    position: absolute;
+    width: 339px;
+    height: 56px;
+    left: 134px;
+    top: 20px;
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  
+  .div1-1 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 134px;
+    top: 80px;
+    text-align: center;
+    background: #85ff8a;
+    border-radius: 50px;
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .div1img13 {
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    left: 470px;
+  }
+  .div1img14 {
+    position: absolute;
+    width: 310px;
+    height: 290px;
+    left: 770px;
+  }
+  .div1img15 {
+    position: absolute;
+    width: 310px;
+    height: 290px;
+    left: 1070px;
+  }
+  .div1img16 {
+    position: absolute;
+    width: 310px;
+    height: 290px;
+    left: 1383px;
+  }
+  .vector1 {
+    position: absolute;
+    top: 277px;
+    height: 100px;
+    width: 50px;
+    left: 95%;
+  }
+  
+  @media screen and (max-width: 1800px) {
+    .vector1 {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1650px) {
+    .div2img4,
+    .div2span6,
+    .div4iconimg4,
+    .div4img8,
+    .div4span6 {
+      display: none;
+    }
+  }
+  .vector2:hover {
+    transform: scale(1.2);
+  }
+  .vector1:hover {
+    transform: scale(1.2);
+  }
+  
+  .div2 {
+    position: relative;
+    left: 5%;
+    width: 95%; 
+    font-family: "Quicksand Light";
+    font-style: normal;
+  }
+  .div0-1{
+    position: relative;
+    left: 5%;
+    width: 95%; 
+    
+  }
+  .div2span1 {
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .div2span2 {
+    position: relative;
+    margin-left: 70%;
+    
+    z-index: 30;
+  }
+  
+  .div2span3 {
+    margin-left:6%;
+    position: relative; 
+    font-weight: 400;
+    
+    width:20%;
+  }
+  .div2span4 {
+    margin-left: 10%;
+    position: relative; 
+    font-weight: 400;
+    font-size: 27px;
+    width:20%;
+  }
+  .div2span5 {
+    margin-left: 12%;
+    position: relative; 
+    font-weight: 400;
+    font-size: 27px;
+    width:20%;
+  }
+  .div2span6 {
+    margin-left: 12%;
+    position: relative; 
+    font-weight: 400;
+    font-size: 27px;
+    width:20%;
+  }
+  .div2img1 {
+    position: relative;
+  }
+  .div2img2 {
+    position: relative;
+    width:20%;
+  }
+  .div2img3 {
+    position: relative;
+    width:20%;
+  }
+  .div2img4 {
+    position: relative;
+    width:20%;
+  }
+  [class^="div2img"]:hover {
+    transform: scale(1.2);
+  }
+  .div3span1 {
+    position: relative;
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    
+    z-index: 10;
+    
+
+  }
+  .div3img1 {
+    position: relative;
+    width: 100%;
+  }
+  .div4iconimg1 {
+    position: relative; 
+    z-index: 20;
+
+  }
+  .div4iconimg2 {
+    position: relative;
+    width: 4%;
+    margin-bottom: 15%;
+    
+    z-index: 20;
+  }
+  .div4iconimg3 {
+    position: relative;
+    width: 4%;
+    margin-bottom: 15%;
+    z-index: 20;
+  }
+  .div4iconimg4 {
+    position: relative;
+    width: 4%;
+    margin-bottom: 15%;
+    
+    z-index: 20;
+  }
+  .div4img5 {
+    position: relative;
+    z-index: 10;
+  }
+  .div4img6 {
+    position: relative;
+    width: 19%;
+    z-index: 10;
+  }
+  .div4img7 {
+    position: relative;
+    width: 19%;
+    z-index: 10;
+  }
+  .div4img8 {
+    position: relative;
+    width: 19%;
+    z-index: 10;
+  }
+  
+  [class^="div4img"]:hover {
+    transform: scale(1.2);
+  }
+  .div4span1 {
+    position: relative;
+    
+    font-family: "Quicksand Light";
+    font-weight: 400;
+    
+    line-height: 55px;
+    z-index: 30;
+  }
+  .div4span2 {
+    position: relative;
+    margin-left: 75%;
+    z-index: 30;
+  }
+  
+  .div4span3 {
+    margin-left: 7%;
+    margin-top: 3%;
+    
+    position: relative;
+    font-weight: 400;
+    
+    width: 15%;
+    z-index: 30;
+  }
+  .div4span4 {
+    margin-left: 15%;
+    margin-top: 3%;
+    
+    position: relative;
+    font-weight: 400;
+    font-size: 27px;
+    width: 15%;
+    z-index: 30;
+  }
+  .div4span5 {
+    margin-left: 14%;
+    margin-top: 3%;
+    
+    position: relative;
+    font-weight: 400;
+    font-size: 27px;
+    width: 15%;
+    z-index: 30;
+  }
+  .div4span6 {
+    margin-left: 14%;
+    margin-top: 3%;
+    
+    position: relative;
+    font-weight: 400;
+    font-size: 27px;
+    width: 15%;
+    z-index: 30;
+  }
+  .div4 {
+    position: relative;
+  
+    width: 95%;
+    
+    left: 5%;
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    
+  }
+  
+  .div5 {
+    position: relative;
+    width: 100%;
+   
+
+    
+  
+    background: #85ff8a;
+  }
+  .div5span1 {
+    position: relative;
+  
+    
+  
+    font-family: "Quicksand Light";
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .div5img {
+    position: relative;
+    width: 3%;
+    z-index: 10;
+  }
